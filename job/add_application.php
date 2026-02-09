@@ -2,6 +2,7 @@
 
 // Include database connection
 include('db_connection.php');
+//db_connecttion
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     // Collect form data
@@ -199,4 +200,5 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 </body>
 </html>
+
 
